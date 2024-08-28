@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI - Voice Cloning Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>GenAI</h1>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="container">
+        <h2>Voice Cloning Bot</h2>
+
+        <!-- Recording Buttons -->
+        <button id="recordBtn">Record</button>
+        <button id="stopBtn" disabled>Stop</button>
+        <button id="playBtn" disabled>Play</button>
+        
+        <!-- Voice Effect Selection -->
+        <select id="voiceSelect">
+            <option value="normal">Normal</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="robot">Robot</option>
+            <option value="ghost">Ghost</option>
+            <option value="cartoon">Cartoon Voice</option>
+            <option value="high_pitch">High Pitch</option>
+            <option value="barbie">Barbie</option>
+        </select>
+
+        <!-- Timer and Feedback -->
+        <p id="timer">00:00</p>
+        <p id="feedback"></p> <!-- Feedback messages will appear here -->
+
+        <!-- Audio Playback -->
+        <audio id="playback" controls></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

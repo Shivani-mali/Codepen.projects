@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #e91e63; /* Pink for the "GenAI" header */
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Main Container Styling */
+.container {
+    background-color: #ffffff; /* White container */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 350px;
+}
+
+/* Subheading */
+.container h2 {
+    color: #e91e63; /* Pink subheading */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Buttons and Input Styling */
+button, select {
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 1.1em;
+    border-radius: 30px;
+    border: none;
+    background-color: #e91e63; /* Pink buttons */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover, select:hover {
+    background-color: #d81b60; /* Darker pink on hover */
+    transform: translateY(-3px);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+select {
+    padding: 12px;
+    font-size: 1em;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Timer and Feedback Styling */
+#timer {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #e91e63; /* Pink timer text */
+}
+
+#feedback {
+    margin-top: 15px;
+    color: #e91e63; /* Pink feedback text */
+    font-size: 1.2em;
+}
+
+/* Audio Player Styling */
+audio {
+    margin-top: 20px;
+    width: 100%;
+}
